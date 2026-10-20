@@ -37,3 +37,7 @@
 ## 컴파일러 옵션 설정하기
 
 얼마나 엄격하게 타입 오류를 검사할지, 자바스크립트 코드의 버전은 어떻게 할지 등을 설정한다.
+
+- `strict: true`는 엄격 모드로, 항상 켜는 게 좋다. strictNullChecks, noImplicitAny 등이 포함된다.
+- `target`은 변환할 JS 버전, `module`은 모듈 방식이다.
+- `outDir`과 `rootDir`은 출력과 소스 경로이다.
