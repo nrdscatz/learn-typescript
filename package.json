@@ -17,5 +17,9 @@
     }
   },
   "packageManager": "pnpm@12.14.0",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
 }
